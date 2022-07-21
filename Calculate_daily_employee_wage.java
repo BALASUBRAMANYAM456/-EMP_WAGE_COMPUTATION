@@ -10,7 +10,7 @@ public class EmpWageProblem{
                 int empWage = 0;
 
                 /* Finding employee is present or absent */
-                double empCheck = Math.floor(Math.random()*10%2);
+                double empCheck = Math.floor(Math.random()*10%2);  //to get a whole number either 0 or 1
                 if(empCheck == isPresent) {
                         empHrs = 8;
                 }
