@@ -14,7 +14,7 @@ public class EmpWageProblem {
 		int empWage = 0;
 
 
-    double empCheck = Math.floor(Math.random()*3);
+    double empCheck = Math.floor(Math.random()*3);   //to get a random number b/w 0 and 3
     if(empCheck == isFullTime) {
       empHrs = 8;
       System.out.println("FULLTIME EMPLOYEE... ");
