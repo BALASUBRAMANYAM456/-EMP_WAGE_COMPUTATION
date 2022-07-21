@@ -6,7 +6,7 @@ public class EmpWageProblem {
 
                 int isPresent = 1;
                  /*employee check */
-                double empCheck = Math.floor(Math.random()*10%2);
+                double empCheck = Math.floor(Math.random()*10%2);  //to get a random whole number either 0 or 1
 
                 if(empCheck == isPresent) {
                         System.out.println("EMPLOYEE IS PRESENT.");
